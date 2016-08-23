@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Freelancers </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/contacto.css" rel="stylesheet">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.scrollorama.js"></script>
+
+<script>
+$(document).ready(function() {     
+   var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+    });
+</script>
 </head>
 <body>
+
+
     <section id="contacto">
     
+            <div class="scrollblock" id="group1">
+                <img src="img/contact.png" alt="contacto" id="imgcontacto" >
+            </div>    
+        
+        
+        
+            <div class="scrollblock" id="group2">
+                <div class="container" id="formulario">
+                   <form id="frmcontacto">
+                    <fieldset>
+                    <legend class="text-center header" id="title2">Contactanos</legend>
+                    <div class="form-group">
+                        <label for="txtnombre">Nombre:</label>
+                        <input type="text" class="form-control" id="txtnombre"
+                               placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtemail">Email</label>
+                        <input type="email" class="form-control" id="txtemail"
+                               placeholder="ejemplo@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtasunto">Asunto:</label>
+                        <input type="text" class="form-control" id="txtasunto"
+                               placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="txtmensaje">Mensaje:</label>
+                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary btn-md">Enviar</button>
+                    </div>
+                    </fieldset>
+                    </form>
+                
+                </div>
+            </div>
+                    
+    
+    
+    
+        
     </section>
+    
+<script>
+$(document).ready(function() {     
+   var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+   scrollorama.animate('#imgcontacto',{ duration: 500, property:'left', start:900,end: 100 });
+   scrollorama.animate('#imgcontacto',{ delay: 0, duration: 400, property:'opacity', start:0 });
+   scrollorama.animate('#imgcontacto',{ delay: 450, duration: 700, property:'top', start:0,end: -900 });
+   scrollorama.animate('#formulario',{ duration: 700, property:'top', start:0,end: -900 });
+   });
+</script>
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

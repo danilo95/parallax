@@ -1,0 +1,16 @@
+#formulario
+{
+    width: 500px;
+    
+    position: absolute;
+    
+    margin-left: 600px;
+}
+
+
+#imgcontacto{
+    
+    position: relative;
+	padding-top: 600px;
+	padding-left: 20px;
+}
