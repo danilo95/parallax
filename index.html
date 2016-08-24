@@ -20,17 +20,12 @@ $(document).ready(function() {
     <section id="contacto">
     
             <div class="scrollblock" id="group1">
-                <img src="img/contact.png" alt="contacto" id="imgcontacto" >
-            </div>    
-        
-        
-        
-            <div class="scrollblock" id="group2">
-                <div class="container" id="formulario">
-                   <form id="frmcontacto">
+                <img src="img/contacto.png" alt="contacto" id="imgcontacto" >
+            
+                   <form id="formulario">
                     <fieldset>
                     <legend class="text-center header" id="title2">Contactanos</legend>
-                    <div class="form-group">
+                    <div class="form-group" id="fm1">
                         <label for="txtnombre">Nombre:</label>
                         <input type="text" class="form-control" id="txtnombre"
                                placeholder="Nombre" required>
@@ -55,22 +50,20 @@ $(document).ready(function() {
                     </fieldset>
                     </form>
                 
-                </div>
+                
             </div>
-                    
     
-    
-    
-        
     </section>
+    
     
 <script>
 $(document).ready(function() {     
    var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
-   scrollorama.animate('#imgcontacto',{ duration: 500, property:'left', start:900,end: 100 });
-   scrollorama.animate('#imgcontacto',{ delay: 0, duration: 400, property:'opacity', start:0 });
-   scrollorama.animate('#imgcontacto',{ delay: 450, duration: 700, property:'top', start:0,end: -900 });
-   scrollorama.animate('#formulario',{ duration: 700, property:'top', start:0,end: -900 });
+   scrollorama.animate('#imgcontacto',{ duration: 550, property:'left', start:900,end: -900 });
+   scrollorama.animate('#imgcontacto',{ delay: 0, duration: 200, property:'opacity', start:0 });
+   scrollorama.animate('#formulario',{ delay: 150, duration: 300, property:'left', start:0,end: -1200 });
+   scrollorama.animate('#formulario',{ delay: 250, duration: 300, property:'left', start:0,end: -1200 });
+   scrollorama.animate('#formulario',{ duration: 200, property:'top', start:100,end: -250 });
    });
 </script>
 <script src="js/bootstrap.min.js"></script>
