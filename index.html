@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<head>
     <meta charset="UTF-8">
     <title>Freelancers </title>
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/estilos.css" type="text/css">
+    <script src="src/js/jquery-1.9.1.min.js"></script>
+    <script src="src/js/jquery.scrollorama.js"></script>   
+    <script src="https://use.fontawesome.com/c915cad2d5.js"></script>
+<script>
+</script>
 </head>
 <body>
-   <footer id="myFooter">
-       
-   </footer>   
+    <section class="cases">
+            <div class="scrollblock" id="casosdeexito">
+            <h1 id="title1" align="center">Casos de exito</h1>
+            <img src="src/img/dedo pulgar.png" alt="trash" id="dedo" >
+            
+            <div class="container" id="cajaexito">
+            
+            <h2>Freelancer</h2>
+            <h4>UDB</h4>
+            <p>Casos de exito, materias pasadas satisfactoriamente por el grupo que realizo este proyecto</p>
+            <ul>
+            <li>Ingenieria de la web (proxima?)</li>
+            <li>ASP.NET</li>
+            <li>PHP</li>
+                <li>Sistemas Digitales</li>
+            <li>ISO</li>
+                <li>Analisis y diseño de sistemas</li>
+                <li>y muchas mas..</li>
+            </ul>
+            </div>
+            </div>
+    </section>
+    
+
+    <footer class="myFooter container-fluid">
+        <a href="#" class="pull-right">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+   </footer>
+   <script>
+$(document).ready(function() {     
+   var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+   
+scrollorama.animate('#title1',{ duration: 400, property:'left', start:-800,end: 0 });
+scrollorama.animate('#dedo',{ duration: 600, property:'right', start:-800,end: 0 });
+scrollorama.animate('#cajaexito',{ delay: 400, duration: 200, property:'opacity', start:-2});
+
+    });
+
+    </script>
+<script src="js/bootstrap.min.js"></script>   
 </body>
 </html>
