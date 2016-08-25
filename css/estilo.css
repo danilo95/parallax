@@ -1,0 +1,72 @@
+/* CSS Document */
+body{
+	background-image: url(http://www.ok-studios.de/fileadmin/templates/okstudios/images/lab_bg.jpg);
+	background-size:100%;
+	background-repeat:repeat-y;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	color:#000;
+	background-attachment:fixed;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#intro1{
+	background-image: url(http://www.ok-studios.de/fileadmin/templates/okstudios/images/design_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center-top;
+	 height: 600px;
+	background-attachment:fixed;
+	position:relative;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#intro2{
+	background-image: url(http://www.putzengel.at/assets/graphics/about/bg_yellow.png);
+	background-repeat:no-repeat;
+	background-position:center-top;
+	 height: 600px;
+	background-attachment:fixed;
+	position:relative;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#intro3{
+	background-image: url(http://www.putzengel.at/assets/graphics/home/bg_white.png);
+	background-repeat:no-repeat;
+	background-position:center-top;
+	 height: 600px;
+	background-attachment:fixed;
+	position:relative;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+#intro4{
+	background-image: url(http://www.ok-studios.de/fileadmin/templates/okstudios/images/jobs_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center-top;
+	 height: 900px;
+	background-attachment:fixed;
+	position:relative;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+h1{
+	position:absolute;
+	left: 0px;
+	top: 15px;
+	padding-left: 650px;
+}
+#basura{
+	padding-top: 60px;
+	padding-left: 650px;
+}
+#birds{
+	padding-top: 160px;
+}
