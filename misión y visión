@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>
+		
+	</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+<center>
+<h1>  
+	Empresa Freelance
+</h1>
+
+<img alt="image" src= "imagefreelance/freelance.jpg" height="250px" width="900px"/>
+<table>
+<td>
+<center>
+<div class=" Mision "> <h2> Misión </h2>  
+	
+	<label class="Letra">
+		Proporcionar un medio de ayuda para las personas que necesiten 
+		un programador para implememtar soluciones practicas a cualquier
+		problema que quiera ser resuelto de manera rapida y creativa,. 
+	</label></div>
+	</td></center>
+	
+<td>
+<center>	
+<div class=" Vision "> <h2> Visión </h2> 
+	<label class="Letra">
+		Pretendemos dar solucion a su problematica de manera inmediata 
+		para ser una ayuda eficaz y de confianza que sirva de referencia para
+		para terceros que requieren los servicios de un programador.
+	</label> </div>
+</td>
+</center>
+</table>
+</center>
+</body>
+</html>
