@@ -4,22 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Pagina freelance</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <link href="css/contacto.css" rel="stylesheet">
+    
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.scrollorama.js"></script>
+
+<script>
+$(document).ready(function() {     
+   var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+    });
+</script>
   </head>
   <body>
-      <!-- Carlos -->
+            <!-- Carlos -->
       <div class="navbar-wrapper">
       <div class="container">
 
@@ -61,30 +65,48 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <div class="container">
-            <div class="carousel-caption">
-                <h1 style="border-bottom: solid white 2px;background-color: #428bca;padding: 10px;border-radius: 10px;">Freelance El Salvador</h1>
-              <div style="padding: 30px;">
-                <p>Tu mejor opción para poder poder cumplir tus necesidades, no esperes mas te estamos esperando para realizarte el mejor servicio de Outsourcing.</p>
-                <h3><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span></h3>
-              </div>
+            <div class="carousel-caption" style="padding-bottom: 100px;">
+                <h1 style="border-bottom: solid white 2px;border-top: solid white 2px;background-color: #00aff0;padding: 10px;border-radius: 10px;">Freelance El Salvador</h1>
+                <div class="row">
+                    <div class="col-md-2">
+                    <h3 class="text-left"><span class="glyphicon glyphicon-folder-open" style="border-radius: 50%;background-color: #2ecc71;border: solid white 2px;padding: 20px;" aria-hidden="true"></span></h3>
+                    </div>
+                  <div class="col-md-8">
+                      <p class="text-justify">Tu mejor opción para poder poder cumplir tus necesidades, no esperes mas te estamos esperando para realizarte el mejor servicio de Outsourcing.</p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <div class="carousel-caption" style="padding-bottom: 100px;">
+              <h1 style="border-bottom: solid white 2px;border-top: solid white 2px;background-color: #9a1616;padding: 10px;border-radius: 10px;">¿Necesitas trabajo hecho?</h1>
+                <div class="row">
+                    <div class="col-md-2">
+                    <h3 class="text-left"><span class="glyphicon glyphicon-info-sign" style="border-radius: 50%;background-color: #f0a30a;border: solid white 2px;padding: 20px;" aria-hidden="true"></span></h3>
+                    </div>
+                  <div class="col-md-8">
+                      <p class="text-justify">Si necesitas realizar cualquier tipo de programa o necesitas mantenimiento para los que ya tienes, contactános estamos dispuestos a ayudarte.</p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption" style="padding-bottom: 100px;">
+              <h1 style="border-bottom: solid white 2px;border-top: solid white 2px;background-color: #fa6800;padding: 10px;border-radius: 10px;">Beneficios</h1>
+                <div class="row">
+                    <div class="col-md-2">
+                    <h3 class="text-left"><span class="glyphicon glyphicon-folder-open" style="border-radius: 50%;background-color: #81003c;border: solid white 2px;padding: 20px;" aria-hidden="true"></span></h3>
+                    </div>
+                  <div class="col-md-8">
+                      <p>
+                        Precios accesibles, Soporte, Precios accesibles ademas estamos siempre disponibles para cualquier duda y atenderte.
+                        </p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -99,13 +121,57 @@
       </a>
     </div><!-- /.carousel -->
 
+<!--************   Francisco   ************** -->
+  <section id="contacto">
+    
+            <div class="scrollblock" id="group1">
+                <img src="img/contacto.png" alt="contacto" id="imgcontacto" >
+            
+                   <form id="formulario">
+                    <fieldset>
+                    <legend class="text-center header" id="title2">Contactanos</legend>
+                    <div class="form-group" id="fm1">
+                        <label for="txtnombre">Nombre:</label>
+                        <input type="text" class="form-control" id="txtnombre"
+                               placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtemail">Email</label>
+                        <input type="email" class="form-control" id="txtemail"
+                               placeholder="ejemplo@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtasunto">Asunto:</label>
+                        <input type="text" class="form-control" id="txtasunto"
+                               placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="txtmensaje">Mensaje:</label>
+                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary btn-md">Enviar</button>
+                    </div>
+                    </fieldset>
+                    </form>
+                
+                
+            </div>
+    
+    </section>
     
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    
-    
+<script>
+$(document).ready(function() {     
+   var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+   scrollorama.animate('#imgcontacto',{ delay: -400, duration: 700, property:'left', start:900,end: -900 });
+   scrollorama.animate('#imgcontacto',{ delay: -400, duration: 200, property:'opacity', start:0 });
+   scrollorama.animate('#formulario',{ delay: -100, duration: 400, property:'left', start:0,end: -1200 });
+   
+   scrollorama.animate('#formulario',{ delay: -300,duration: 200, property:'top', start:100,end: -400 });
+   });
+</script>
+<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+

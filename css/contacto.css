@@ -1,0 +1,32 @@
+#formulario
+{
+    width: 500px;
+    padding-top: 400px;
+    position: absolute;
+    /*border: solid;*/
+    margin-left: 600px;
+}
+#imgcontacto{
+    
+    position: relative;
+	padding-top: 100px;
+	padding-left: 20px;
+    /*border: solid;*/
+}
+#group1
+{
+    
+   background: rgb(181,159,39);
+background: -moz-linear-gradient(-45deg,  rgba(181,159,39,1) 1%, rgba(198,195,177,1) 100%);
+background: -webkit-linear-gradient(-45deg,  rgba(181,159,39,1) 1%,rgba(198,195,177,1) 100%);
+background: linear-gradient(135deg,  rgba(181,159,39,1) 1%,rgba(198,195,177,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b59f27', endColorstr='#c6c3b1',GradientType=1 );
+
+    
+ height: 700px;
+	background-attachment:fixed;
+	position:relative;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}
