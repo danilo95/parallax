@@ -1,0 +1,38 @@
+body{
+	background: #999999;
+}
+h1{
+	/*margin: 30px auto;
+	min-width: 450px;
+	max-width: 600px;*/
+	background: #424153;
+	color:white;
+	opacity: 0.89;
+}
+
+.Mision{
+	margin: 30px auto;
+	min-width: 450px;
+	max-width: 600px;
+	background: #424153;
+	color:white;
+	opacity: 0.89;
+}
+
+.Vision{
+	margin: 30px auto;
+	min-width: 450px;
+	max-width: 600px;
+	background: #424153;
+	color:white;
+	opacity: 0.89;
+}
+
+.Letra{
+	margin: 30px auto;
+	min-width: 450px;
+	max-width: 600px;
+	background: #424153;
+	color:white;
+	opacity: 0.89;
+}
