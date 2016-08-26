@@ -220,32 +220,63 @@ $(document).ready(function() {
   </ul>
 </div>
 </div>
-      <footer class="myFooter scrollblock " id="footer">
-        <a href="#" class="pull-right">
-        <span class="fa-stack fa-4x">
+    <footer class="myFooter scrollblock container-fluid">
+      <div class="row" >
+      <div class="col-md-6" id="text-footer">
+        <div class="col-md-3 col-md-offset-2">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Product for Mac</a></li>
+          <li><a href="#">Product for Windows</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Web analytics</a></li>
+          <li><a href="#">Presentations</a></li>          
+        </ul>
+      </div>  
+      </div>
+      <div class="col-md-5" id="footer">
+          <a href="#" class="pull-right">
+        <span class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
             </span>
             </a>
             <a href="#" class="pull-right">
-        <span class="fa-stack fa-4x">
+        <span class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
             </a>
             <a href="#" class="pull-right">
-        <span class="fa-stack fa-4x">
+        <span class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
             </span>
             </a>
                 <a href="#" class="pull-right">
-        <span class="fa-stack fa-4x">
+        <span class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
             </span>
             </a>
-   </footer>
+      </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="#">© 2016 Freelance El Salvador.</a></li>
+            </ul>
+        </div>
+      </div>
+      </footer>
 
 <script>
 $(document).ready(function() {
@@ -258,6 +289,8 @@ $(document).ready(function() {
    scrollorama.animate('#title1',{ duration: 400, property:'left', start:-800,end: 0 });
 scrollorama.animate('#dedo',{ duration: 600, property:'right', start:-800,end: 0 });
 scrollorama.animate('#cajaexito',{ delay: 400, duration: 200, property:'opacity', start:-2});
+scrollorama.animate('#footer',{ duration: 300, property:'right', start:-800,end: 0 });
+scrollorama.animate('#text-footer',{ duration: 300, property:'left', start:-800,end: 0 });
 
    });
 </script>
