@@ -1,0 +1,40 @@
+#casosdeexito{
+	background-image: url(../img/fondoamarillo.png);
+	 height: 600px;
+	position:relative;
+	width:100%;
+	
+}
+#dedo{
+	float:right;
+}
+#casosdeexito1{
+	background-image: url(../img/fondoamarillo.png);
+	
+	 height: 600px;
+	
+	position:relative;
+	width:100%;
+	
+}
+.myFooter
+{
+  width: 100%;
+  height: 300px;
+  background: #33FFBB;
+  position: absolute;
+}
+
+.myFooter > a
+{
+  	text-align: center;
+    line-height: 300px;
+    color:  #00796b;
+    text-decoration: none;
+}
+
+.myFooter > a:hover
+{
+    color:  #004d40;
+    text-decoration: none;
+}
